@@ -1,0 +1,79 @@
+{
+  "moduleTitle": "Modul: ...schon auch modal",
+  "sections": [
+    {
+      "title": "Ziel & Kontext",
+      "elements": [
+        {
+          "id": "modul-einleitung",
+          "title": "Worum geht es im Modul?",
+          "type": "text",
+          "contentPath": "/src/content/elements/modul-einleitung.md"
+        }
+      ]
+    },
+    {
+      "title": "Korpusdaten entdecken",
+      "elements": [
+        {
+          "id": "corpus-search",
+          "title": "Korpusrecherche durchführen",
+          "type": "component"
+        },
+        {
+          "id": "diskurs-beispiel",
+          "title": "Politischer Diskurs & „schon“: audiovisuelle Beispiele",
+          "type": "video-text",
+          "videoPath": "/media/videos/Video_ConcRUM_0563_short.mp4",
+          "transcriptPath": "/corpus/texts/PoliMOD_ConcRUM_0563.txt",
+          "htmlPath": "/annotated/annotated_ConcRUM_0563.html"
+        }        
+      ]
+    },    
+    {
+      "title": "Analyse",
+      "elements": [
+        {
+          "id": "annotieren-selbst",
+          "title": "Eigene Annotationen: Übungstexte",
+          "type": "text",
+          "contentPath": "/src/content/elements/annotation-uebung.md"
+        },
+        {
+          "id": "annotieren-loesung",
+          "title": "Beispielannotation",
+          "type": "html",
+          "htmlPath": "/annotated/annotated_ConcRUM_0563"
+        }
+      ]
+    },
+    {
+      "title": "Reflexion",
+      "elements": [
+        {
+          "id": "reflexion",
+          "title": "Welche Funktion hat „schon“?",
+          "type": "quiz",
+          "quizPath": "/src/content/quizzes/reflexion.json"
+        },
+        {
+          "id": "alternativen",
+          "title": "Formulieren Sie eine Alternative",
+          "type": "text",
+          "contentPath": "/src/content/elements/reflexion-schreiben.md"
+        }
+      ]
+    },
+    {
+      "title": "Fragebogen",
+      "elements": [
+        {
+          "id": "fragebogen",
+          "title": "Ich habe schon gedacht – oder denke ich schon?",
+          "type": "text",
+          "contentPath": "/src/content/elements/kommentar.md"
+        }
+      ]
+    }    
+  ]
+}
